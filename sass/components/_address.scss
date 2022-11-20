@@ -1,0 +1,37 @@
+.address {
+    margin-top: 20px;
+}
+
+.address-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-footer {
+    text-decoration: none;
+    line-height: 1.71;
+}
+
+.address-map {
+    color: var(--color-btn);
+    font-style: normal;
+    transition: color var(--trns-hover);
+
+&:hover,
+&:focus {
+    color: var(--bg-btn);}
+}
+
+.mailto-footer{
+        color: #ffffff99;
+        transition: color var(--trns-hover);
+    &:hover,
+    &:focus {color: var(--bg-btn);
+        }
+}
+.tel-footer {
+    color: #ffffff99;
+    transition: color var(--trns-hover);
+    &:hover,
+    &:focus {color: var(--bg-btn);
+    }
+}

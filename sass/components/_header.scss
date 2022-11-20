@@ -1,0 +1,56 @@
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+/* line */
+.header-line {
+    border-bottom: 1px solid #ececec;
+}
+
+/*address header*/
+.mailto {
+    display: flex;
+    align-items: center;
+    color: var(--address);
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    padding: 32px 0px;
+
+    transition: color var(--trns-hover);
+
+&:hover,
+&:focus {
+    color: var(--bg-btn);}
+}
+
+.mail-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    color: var(--address);
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    padding: 32px 0px;
+
+    transition: color var(--trns-hover);
+
+&:hover,
+&:focus {
+    color: var(--bg-btn);}
+}
+
+.tel-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}

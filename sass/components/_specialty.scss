@@ -1,0 +1,34 @@
+.specialty {
+    padding-top: 94px;
+}
+
+.specialty__flex {
+    display: flex;
+    gap: 30px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.feature__title {
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    color: var(--filter-btn);
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.feature__lead {
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--address);
+    width: 270px;
+}

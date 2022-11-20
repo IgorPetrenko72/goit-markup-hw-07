@@ -1,0 +1,40 @@
+.sign {
+    margin-left: auto;
+}
+
+.sign__title {
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    color: var(--color-btn);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.sign__form {
+    display: flex;
+    align-items: center;
+}
+
+.sign__input {
+    width: 358px;
+    height: 50px;
+    padding: 15px;
+    margin-right: 12px;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2f303a;
+}
+
+.sign__label {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    color: rgba(255, 255, 255, 0.6);
+}
